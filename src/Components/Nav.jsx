@@ -2,15 +2,15 @@ export function Nav() {
     return (
         <>
             <section>
-                <ul>
-                    <li>
-                        <a href="#">Hot</a>
+                <ul className="navList">
+                    <li className="navItem">
+                        <a className="navLink" href="#">Hot</a>
                     </li>
-                    <li>
-                        <a href="#">Juicy</a>
+                    <li className="navItem">
+                        <a className="navLink" href="#">Juicy</a>
                     </li>
-                    <li>
-                        <a href="#">Cosy</a>
+                    <li className="navItem">
+                        <a className="navLink" href="#">Cosy</a>
                     </li>
                 </ul>
             </section>
