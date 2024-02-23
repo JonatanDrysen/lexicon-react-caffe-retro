@@ -1,7 +1,12 @@
+import { Header } from "./Components/Header";
+
 export function App() {
   return (
     <>
-      <h1>This is the App Component</h1>
+      <main>
+        <Header text={"Hot"} />      
+
+      </main>
     </>
   );
 }
